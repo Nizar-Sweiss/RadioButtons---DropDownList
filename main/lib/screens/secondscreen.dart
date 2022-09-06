@@ -53,7 +53,7 @@ class _SecondScreenState extends State<SecondScreen> {
                   color:  Color.fromARGB(117, 255, 255, 255),
                   child: Text(
                     "Chemistry Objective (Multiple Choice) General Knowledge Questions & Answers for SSC-CGL, UPPSC, UPSC, NDA, CDS and UPSC Civil Services Prelims Examination",
-                    style: TextStyle(
+                    style: TextStyle(fontFamily: "BebasNeue",
                         color: Colors.white, fontSize: 20),
                   ),
                 ),
@@ -83,9 +83,10 @@ class _SecondScreenState extends State<SecondScreen> {
                         Text(
                             " Q1 Highest percentage of nitrogen is \nfound in which among the following \n fertilizers among the given options?",
                             style: TextStyle(
+                              fontFamily: "AlfaSlabOne",
                                 color: Colors.white,
                                 fontSize: 20,
-                                fontWeight: FontWeight.bold)),
+                                )),
                         DropdownButton(
                             value: selectedAnswer,
                             items: answersQ1

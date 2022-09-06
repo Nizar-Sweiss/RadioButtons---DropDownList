@@ -13,7 +13,8 @@ class Main extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(backgroundColor: Color.fromARGB(255, 21, 0, 96), title: Text("General Science Questions & Answers"),),
+        
+        appBar: AppBar(backgroundColor: Color.fromARGB(255, 21, 0, 96), title: Text("General Science Questions & Answers"  ,),),
         body: Home(),
       ),
     );
@@ -55,7 +56,7 @@ class _HomeState extends State<Home> {
                   });},
                 child: Text(
                   "Physics MCQ",
-                  style: TextStyle(color: Colors.black, fontSize: 20),
+                  style: TextStyle(color: Colors.black, fontSize: 40,fontFamily: "Caveat" , fontWeight: FontWeight.bold),
                 )),
             SizedBox(
               height: 30,
@@ -76,7 +77,7 @@ class _HomeState extends State<Home> {
                 },
                 child: Text(
                   "Chemistry MCQs ",
-                  style: TextStyle(color: Colors.black, fontSize: 20),
+                  style: TextStyle(color: Colors.black, fontSize: 40,fontFamily: "Caveat",fontWeight: FontWeight.bold),
                 ))
           ],
         ),

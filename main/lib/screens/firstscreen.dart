@@ -37,7 +37,7 @@ class _FirstScreenState extends State<FirstScreen> {
                   color: questionBackColor,
                   child: Text(
                     "Physics Objective (Multiple Choice) General Knowledge & General Science Questions & Answers for SSC-CGL, UPPSC, UPSC, NDA, CDS and UPSC Civil Services Prelims Examinations. ",
-                    style: TextStyle(
+                    style: TextStyle(fontFamily: "BebasNeue",
                         color: Color.fromARGB(255, 9, 8, 8), fontSize: 20),
                   ),
                 ),
@@ -67,9 +67,10 @@ class _FirstScreenState extends State<FirstScreen> {
                         Text(
                             " Q1 - Which among the following is / are correct statements? \n1. The images produced by Concave Mirrors are always real images \n 2. The images produced by Flat Mirrors are always virtual images \n 3. Converging Lens can produce virtual as well as real images",
                             style: TextStyle(
+                              fontFamily: "AlfaSlabOne",
                                 color: questionTextColor,
                                 fontSize: 20,
-                                fontWeight: FontWeight.bold)),
+                               )),
                         Container(
                           width: 600,
                           color: Color.fromARGB(0, 255, 193, 7),
